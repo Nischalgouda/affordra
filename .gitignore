@@ -1,0 +1,44 @@
+# Environment & Secrets (Never commit)
+.env
+.env.*
+*.env
+
+# Agent & Runtime Logs
+log.txt
+run_log.txt
+chat_transcript.*
+*.log
+
+# Personal prep & contest artifacts (not for public repo)
+INTERVIEW_PREP.md
+evaluation/
+code/evaluation/
+
+# HackerRank hackathon starter files (not Affordra's original work)
+AGENTS.md
+CLAUDE.md
+problem_statement.md
+
+# Dataset blank template (HackerRank's file, not our output)
+dataset/output.csv
+
+# Python bytecode & cache
+__pycache__/
+code/__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Build artifacts & archives
+*.zip
+
+# Operating System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
